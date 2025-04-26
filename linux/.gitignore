@@ -1,0 +1,75 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The Flutter SDK installation directory
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Build artifacts
+build/
+app/build/ # Android specific build directory
+ios/build/ # iOS specific build directory
+
+# Dependency files
+ios/Pods/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/GeneratedPluginRegistrant.*
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Dart tool directory
+.dart_tool/
+
+# VS Code related
+.vscode/
+
+# Android Studio generated files
+*.apk
+*.aab
+*.jar
+*.war
+/android/gradlew
+/android/.gradle
+/android/gradle.properties
+/android/local.properties
+/android/key.properties # Private signing keys
+*.jks # Private signing keys
+
+# Xcode generated files
+*.hmap
+*.xcscheme
+xcuserdata/
+DerivedData/
+.generated/
+Flutter/ephemeral/
+Flutter/app.flx
+
+# Secrets (If using .env files later)
+# .env*
+# secrets.json
+
+# Coverage data
+coverage/
+lcov.info
+
+# Flutter state files
+flutter_build.d

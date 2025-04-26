@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "Flutter",
+          "type": "dart",
+          "request": "launch",
+          "program": "lib/main.dart",
+          "args": [
+              "--dart-define=ACCESS_TOKEN=pk.eyJ1IjoidW5lYXJ0aGNyZWF0b3IiLCJhIjoiY205eW5wb2FjMTc3czJpczc5Y2xvbWJybyJ9.ohagnvygrTFRL40srnakUQ",
+              "--dart-define=TEST_VAR=HelloWorld" // <-- Tillagd testvariabel
+          ]
+      },
+      {
+          "name": "geography_game",
+          "type": "dart",
+          "request": "launch",
+          "args": [
+              "--dart-define=ACCESS_TOKEN=pk.eyJ1IjoidW5lYXJ0aGNyZWF0b3IiLCJhIjoiY205eW5wb2FjMTc3czJpczc5Y2xvbWJybyJ9.ohagnvygrTFRL40srnakUQ",
+              "--dart-define=TEST_VAR=HelloWorld" // <-- Tillagd testvariabel
+          ]
+      },
+      {
+          "name": "geography_game (profile mode)",
+          "type": "dart",
+          "request": "launch",
+          "flutterMode": "profile",
+          "args": [
+              "--dart-define=ACCESS_TOKEN=pk.eyJ1IjoidW5lYXJ0aGNyZWF0b3IiLCJhIjoiY205eW5wb2FjMTc3czJpczc5Y2xvbWJybyJ9.ohagnvygrTFRL40srnakUQ",
+              "--dart-define=TEST_VAR=HelloWorld" // <-- Tillagd testvariabel
+          ]
+      },
+      {
+          "name": "geography_game (release mode)",
+          "type": "dart",
+          "request": "launch",
+          "flutterMode": "release",
+          "args": [
+              "--dart-define=ACCESS_TOKEN=pk.eyJ1IjoidW5lYXJ0aGNyZWF0b3IiLCJhIjoiY205eW5wb2FjMTc3czJpczc5Y2xvbWJybyJ9.ohagnvygrTFRL40srnakUQ",
+              "--dart-define=TEST_VAR=HelloWorld" // <-- Tillagd testvariabel
+          ]
+      }
+  ]
+}
