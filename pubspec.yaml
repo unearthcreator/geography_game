@@ -59,6 +59,12 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    # Add this line to include all files in the assets/images/ directory.
+    # Make sure you have created an 'assets' folder in your project root,
+    # and an 'images' folder inside 'assets', and placed your images there.
+    - assets/images/
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
